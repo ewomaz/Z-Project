@@ -1,47 +1,29 @@
-# Z-Homes
+# This website is a website that is built for the buying of houses at an affordable price.
 
-### Icons and Images used
-- Bootstrap Icons
-- Undraw.com
+## This website was built using the following programming Languages:
+- HTML.
+- CSS.
 
-## Undraw
-This was used to add an illusration in which the color can be changed depending on the website.
+### The website does not have a JavaScript.
 
-## Bostrap Icons
-As the name implies, its where i got various icons that was used.
-
-
-
-All the files including images are found in the `src` folder.
-
-- There are various links that were used:
-+ The user Sign-up
-+ The user Login.
-+ The contact us link.
+### The home page of this website as the following:
+    - The header section.
+    - The choose us section.
+    - The choose a plan section.
+    - The footer section.
 
 
-+ The user Sign-up: The user sign-up link is found in the user login page. It contains the following information the user need's to fill, which are:
-    - `first name`: The user's first name.
-    - `last name`: The user's last name.
-    - `date of birth`: The user's date of birth.
-    - `country`: The user's country.
-    - `age`: The user's age.
-    - `password`: The user's password.
++ The Header section consists of the following:
+    - The logo.
+    - The pricing link.
+    - The Login link.
 
-+ The user login link: When the login link is being clicked, the website takes you to the login page which contains the following:
-    - `email`: Email of the user.
-    - `password`: Password of the user.
++ The Choose us section gives the user various reasons why they should pantronize us.
 
-We have the login button, which is clicked on if the following has been filled - `email and password` - if these are filled correctly the allow the user to be able access the full potential of the website.  -  And if the information that filled are not correct it will show what the user filled incorrectly.
++ The Choose a plan section has different and cheaper price in buying a house.
 
-
-In case the user has forgotten the password he/she as used, the user can click on the forget password link that we help you create a new password to be used.
-
-+ The contact us link: It is found in the footer, when the contact us link is clicked the website takes u the contact us page which contains the following:
-    - `name`: The name of the user.
-    - `email`: The email of the user.
-    - `phone number`: The phone number of the user.
-    - `message`: The message which contain opinions or problems the user find inconvinent using the website.
-
-- There is a send message button, when the user is done filling the above information, then the user can click on send message button. Besides the information part there is a map that show where we are located.
-
+## The website has the following pages:
+    1. The Login page.
+    2. The Contact us page.
+    3. The Sign-up page.
+    4. The Home page.
