@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mobile meta -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="author" content="zino">
+    <meta name="description" content="sales of goods and rendering of services">
+    <meta name="keywords" content="sales of goods, fast and efficient">
+    <title>my-homes | Contact</title>
+    <link rel="icon" href="./src/images/IMG_20231123_164235_294.jpg">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- common-css -->
+    <link rel="stylesheet" href="./src/css/common-styles.css">
+    <link rel="stylesheet" href="./src/css/contact.css">
+</head>
+<body>
+    <!-- Header starts -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <img src="./src/images/IMG_20231123_164235_294.jpg" alt="">
+            </a>
+
+            <div class="links">
+                <a href="login.html">Login</a>
+                <a href="index.html">Home</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <!-- contact section starts -->
+    <section id="contact-section">
+        <div class="contact-section-content container grid">
+            <div class="contact-section-content--left flex">
+                <h2>Contact Us</h2>
+                <form action="/server-file" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="text" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="phone" placeholder="Enter Your phone number" required>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave Your message" required></textarea>
+                    <button>send message</button>
+                </form>
+            </div>
+
+            <div class="contact-section-content--right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016700.1712972946!2d4.842377346874997!3d5.494745100000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041bd7b58318d83%3A0xdf7cec2853a66d7e!2sCodeBadger%20Technology!5e0!3m2!1sen!2sng!4v1701168664276!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- Footer section starts -->
+    <footer id="footer-section">
+        <div class="footer-section-content container grid">
+            <div class="footer-content--left">
+                <div class="footer-content--left-links">
+                    <div>
+                        <i class="bi bi-chevron-right"></i>
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-chevron-right"></i>
+                        <a href="contact.html">contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content--right">
+                <div>Follow Us</div>
+                <div class="social-links">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+                <div>Copyright &copy; 2020 All rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+</body>
+</html>

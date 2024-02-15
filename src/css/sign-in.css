@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+}
+
+header{
+    align-self: start;
+}
+
+footer{
+    align-self: end;
+}
+
+#sign-in-section{
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
+}
+
+.sign-in-section-content{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sign-in-section-content--left input{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aliceblue;
+    outline: none;
+
+}
+
+
+.sign-in-section-content--left form input{
+    border: 1px solid  lightgrey;
+    border-radius: 5px ;
+}
+
+.sign-in-section-content form button{
+    background-color: var(--color3);
+    font-family: var(--fontFamily3);
+    color: var(--color1);
+    font-size: var(--fontSize6);
+    align-items: center;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+@media(max-width: 1000px){
+    .login-section-content{
+        grid-template-columns: 1fr;
+    }
+
+    .sign-in-section-content--right{
+        display: none;
+    }
+
+    .sign-in-section-content--left form{
+        width: 90%;
+        gap: 20px;
+    }
+}
+
+/* <=500px */
+@media(max-width: 500px){
+    .sign-in-section-content--left form{
+        width: 90%;
+        gap: 20px;
+    }
+}
+
